@@ -1,0 +1,78 @@
+/* h1 {
+    font-size: 30px;
+    display: flex;
+    border: solid;
+    border-radius: 10%;
+    animation:infinite;
+    background-image: linear-gradient(315deg, rgb(231, 109, 8) 0%, rgb(239, 240, 224) 74%);
+    text-align: center;
+    text-transform: uppercase;
+}   
+
+body {
+    background-image: linear-gradient(315deg, rgb(7, 9, 119) 0%, rgb(169, 194, 231) 74%);
+}
+
+button {
+    background-image: linear-gradient(315deg, rgb(119, 7, 69) 0%, rgb(169, 194, 231) 74%);
+    justify-content: center;
+} */
+
+.circle {
+    border-radius: 50%;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.lime{
+    background-color: lime;
+    width: 150px;
+    height: 150px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    position: absolute;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    position: absolute;
+}
+
+.gold{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    position: absolute;
+}
+
+.purple{
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top:50%;
+    position: absolute;
+}
+
+.test {
+    margin-top: 20px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: rgb(129, 176, 218);
+    color: rgb(207, 104, 104);
+}
+
+.img{
+height: 100px;
+width: 100px;
+}
